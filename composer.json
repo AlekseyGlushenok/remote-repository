@@ -1,0 +1,23 @@
+{
+    "name": "livecv-gems/php-remote-model",
+    "description": "Model for connect to remote ms. and work with remote data structure for bff",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "phpunit/phpunit": "8.5.9",
+        "ext-json": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aleksey",
+            "email": "glushenok32@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\RemoteModel\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
